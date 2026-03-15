@@ -17,7 +17,6 @@ body {
     padding: 2rem;
     margin: auto;
     background-color: white;
-    width: 600px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.25);
     border-radius: 25px;
     text-shadow: 0.5px 1.5px #888888;
@@ -62,4 +61,30 @@ footer {
     width:100%;
     box-sizing:border-box;
     display: block;
+}
+/* Base CSS */
+footer{
+background:#333;
+color:white;
+padding:12px;
+text-align:center;
+width:100%;
+}
+
+/* Mobile */
+@media (min-width:320px) and (max-width:999px){
+
+.container{
+width:90%;
+}
+
+}
+
+/* Desktop */
+@media (min-width:1000px){
+
+.container{
+width:600px;
+}
+
 }
