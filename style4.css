@@ -72,10 +72,10 @@ width:100%;
 }
 
 /* Mobile */
-@media (min-width:320px) and (max-width:999px){
+@media (min-width:300px) and (max-width:999px){
 
 .container{
-width:90%;
+width:300px;
 }
 
 }
